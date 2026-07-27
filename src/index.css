@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@theme {
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-border: var(--border);
+  --color-mono-text: var(--mono-text);
+}
+
+@layer base {
+  :root {
+    --bg: #FAFAF8;
+    --surface: #FFFFFF;
+    --text-primary: #17181A;
+    --text-secondary: #5C5F63;
+    --accent: #2A5CDB;
+    --accent-soft: #EAF0FE;
+    --border: #E6E5E1;
+    --mono-text: #7C8590;
+  }
+
+  .dark {
+    --bg: #0A0C0F;
+    --surface: #13161A;
+    --text-primary: #F2F2F0;
+    --text-secondary: #9BA1A6;
+    --accent: #6E93F0;
+    --accent-soft: #182238;
+    --border: #21252B;
+    --mono-text: #6B7280;
+  }
+
+  body {
+    @apply bg-bg text-text-primary font-body antialiased transition-colors duration-300;
+  }
+
+  /* Hide scrollbar globally but allow scrolling */
+  * {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  *::-webkit-scrollbar {
+    display: none;
+  }
+}

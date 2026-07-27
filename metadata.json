@@ -1,0 +1,8 @@
+{
+  "name": "Haseeb Javed Portfolio",
+  "description": "A quiet terminal-inspired portfolio website for full-stack developer Haseeb Javed.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

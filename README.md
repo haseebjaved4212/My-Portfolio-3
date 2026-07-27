@@ -41,7 +41,7 @@ The website bridges traditional web interfaces with interactive CLI elements—f
 | Category | Technologies / Libraries |
 | :--- | :--- |
 | **Core Framework** | [React 19](https://react.dev/), [TypeScript 5.8](https://www.typescriptlang.org/), [Vite 6](https://vitejs.dev/) |
-| **Styling & Design System** | [Tailwind CSS v4](https://tailwindcss.com/), Custom Vanilla CSS Variables (`index.css`) |
+| **Styling & Design System** | [Tailwind CSS v4](https://tailwindcss.com/) |
 | **Animations & Motion** | [Motion (Framer Motion v12)](https://motion.dev/) |
 | **Icons & UI Utilities** | [Lucide React](https://lucide.dev/) |
 

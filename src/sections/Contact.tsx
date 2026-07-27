@@ -85,7 +85,7 @@ export function Contact() {
               </a>
 
               <a 
-                href="https://wa.me/your_number_here" 
+                href="https://wa.me/+923272119600" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-3 p-3 rounded-lg hover:bg-bg transition-colors"
